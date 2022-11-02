@@ -16,7 +16,8 @@ export default function Navbar(props) {
           {MenuItems.map((item, index) => {
             return (
               <li key={index} className={item.cName}>
-                {item.title}
+                {/* Temporary until utilization of routing */}
+                <a href={item.url}>{item.title}</a>
               </li>
             );
           })}
