@@ -13,10 +13,42 @@
 }
 
 .Navbar {
+  display: flex;
   background-color: #f8bd7f;
   height: 100px;
-  color: #3e4e50;
+  color: white;
+  font-size: 17px;
   text-align: center;
   line-height: 90px;
   height: 90px;
+  justify-content: center;
+}
+
+.Subnav {
+  height: 50px;
+  line-height: 50px;
+  background-color: black;
+}
+
+.Subnav,
+ul {
+  display: flex;
+}
+
+.Subnav,
+li {
+  list-style-type: none;
+  justify-content: center;
+  text-align: center;
+}
+
+.List-text {
+  padding-left: 23px;
+  color: white;
+  font-weight: bold;
+}
+
+.Search-btn {
+  font-size: 17px;
+  cursor: pointer;
 }
