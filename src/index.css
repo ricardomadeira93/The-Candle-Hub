@@ -40,21 +40,20 @@ li {
   list-style-type: none;
   justify-content: center;
   text-align: center;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
 }
 
 .List-text,
 a {
- 
+  position: relative;
   text-decoration: none;
   color: #ffffff;
   margin-left: 5px;
-  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
 /* Temporary */
-a:hover {
-  box-shadow: inset 100px 0 0 0 #e87f00;
-  color: white;
-}
 
 .Search-btn {
   font-size: 17px;
