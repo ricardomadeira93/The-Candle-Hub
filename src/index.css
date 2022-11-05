@@ -73,6 +73,11 @@ a {
   position: absolute;
   line-height: 600px;
 }
+.Hero-P {
+  color: black;
+  position: absolute;
+  line-height: 700px;
+}
 
 .Hero-Button {
   text-align: center;
@@ -84,5 +89,34 @@ a {
 
 .Video-BG {
   object-fit: cover;
-  aspect-ratio: 100;
+  aspect-ratio: 3.2;
+}
+
+.Option-Scroller {
+  display: flex;
+  background-color: pink;
+  width: auto;
+  height: 250px;
+  justify-content: center;
+  text-align: center;
+}
+
+.Scroll.Content {
+  display: flex;
+  justify-content: center;
+  background-color: palevioletred;
+}
+
+.Menu-Option {
+  width: auto;
+  padding: 30px 20px;
+  width: 150px;
+  height: 150px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+.Menu-Option,
+p {
+  font-weight: 600;
+  color: white;
 }

@@ -12,7 +12,10 @@ export default function Hero() {
         className="Video-BG"
         src={VideoBG}
       />
-      <button className="Hero-Button">Hello</button>
+      <p className="Hero-P">
+        Your store to buy the scent u want
+      </p>
+      {/* <button className="Hero-Button">Hello</button> */}
     </div>
   );
 }
